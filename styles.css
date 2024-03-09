@@ -6,6 +6,7 @@ html {
   font-family: Arial, sans-serif; /* Default font family */
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* Styling the nav bar, look at how the selectors are */
@@ -124,6 +125,17 @@ this is the coomination selector I think */
   padding: 10px;
   margin: 50px 50px;
   justify-content: space-around;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+}
+
+#about, #classes, #system, #community {
+  background-image: url("https://front.darkanddarker.com/media_8.webp");
+  
 }
 
 /* Goal: for tomorrow, change font of text, add about section */
