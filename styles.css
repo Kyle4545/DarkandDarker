@@ -99,6 +99,7 @@ this is the coomination selector I think */
   nav ul li a:hover::after,
   nav ul li a:hover::before {
     width: 50%;
+    color: grey;
   }
 }
 
@@ -133,9 +134,18 @@ this is the coomination selector I think */
   padding: 50px 50px;
 }
 
-#about, #classes, #system, #community {
-  background-image: url("https://front.darkanddarker.com/media_8.webp");
-  
+#about {
+  background-image: url(images/media_6.webp);
+  background-size: cover;
+
 }
 
+ #about h1 {
+  font-size: 50px;
+ }
+
+ #about .logo {
+  display: flex;
+  justify-content: center;
+ }
 /* Goal: for tomorrow, change font of text, add about section */
