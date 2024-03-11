@@ -103,7 +103,7 @@ this is the coomination selector I think */
   }
 }
 
- p, .welcome, h1 {
+ p, h1 {
   /*Make this centered*/
   display: flex;
   font-size: 20px;
@@ -114,6 +114,14 @@ this is the coomination selector I think */
   padding: 50px 10px 10px 10px;
   margin: 50px;
   word-break: keep-all;
+}
+
+.container .dnd {
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px 10px 10px;
+  margin: 50px;
+  
 }
 
 .images {
