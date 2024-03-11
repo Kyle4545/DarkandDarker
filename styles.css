@@ -85,7 +85,6 @@ this is the coomination selector I think */
     content: "";
     width: 100%;
     height: 2px;
-    background: red;
     display: block;
     position: absolute;
     bottom: 0;
@@ -103,7 +102,7 @@ this is the coomination selector I think */
   }
 }
 
- p, h1 {
+ .container p, h1 {
   /*Make this centered*/
   display: flex;
   font-size: 20px;
@@ -145,15 +144,30 @@ this is the coomination selector I think */
 #about {
   background-image: url(images/media_6.webp);
   background-size: cover;
+  
 
 }
 
- #about h1 {
-  font-size: 50px;
+
+  #about p {
+  display: flex;
+  /* padding-left: 1112px; */
+  background-color: red;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+
  }
 
- #about .logo {
+ #about .welcome {
   display: flex;
   justify-content: center;
+  padding: 10px;
+ 
  }
-/* Goal: for tomorrow, change font of text, add about section */
+
+ /* #about .gameplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+ } */
