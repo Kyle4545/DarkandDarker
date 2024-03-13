@@ -141,7 +141,9 @@ this is the coomination selector I think */
   padding: 50px 50px;
 }
 
-#about {
+#about {  /*With this I am able to have the 2 divs be in the same row for now .description and .gameplay*/
+  display: flex;
+  justify-content: space-between;
   background-image: url(images/media_6.webp);
   background-size: cover;
   
@@ -149,22 +151,29 @@ this is the coomination selector I think */
 }
 
 
-  #about p {
-  display: flex;
+   .Description {
+    column-count: 3;
+  column-gap: 40px;
+  column-rule: 4px double #ff00ff;
+  /* display: flex; */
   /* padding-left: 1112px; */
-  background-color: red;
-  flex-direction: column;
-  align-items: flex-end;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
   padding-right: 20px;
 
  }
 
- #about .welcome {
+ .gameplay {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: red; */
   padding: 10px;
  
  }
+
 
  /* #about .gameplay {
   display: flex;
